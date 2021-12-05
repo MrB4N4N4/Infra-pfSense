@@ -28,7 +28,7 @@ SecurityOnion(IDS) 에서는 해당 룰이 존재하지 않으므로 아무런 A
 
 _sudo nano /etc/nsm/rules/local.rules_
 
-`alert tcp $EXTERNAL_NET any > $HTTP_SERVERS any (msg: "XSS in GET"; content:"script%3e"; nocase; classtype:web-application-attack; sid:21120501; rev:1;)
+`alert tcp $EXTERNAL_NET any > $HTTP_SERVERS any (msg: "XSS in GET"; content:"script%3e"; nocase; classtype:web-application-attack; sid:21120501; rev:1;)`
 
 <br>
 
