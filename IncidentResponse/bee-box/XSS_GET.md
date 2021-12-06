@@ -109,8 +109,8 @@ WEB-WAF 사이의 패킷은  공격자가 보낸 패킷과 동일하다. WAF가 
 _sudo nano /etc/nsm/name_of_sensor/threshold.conf_
 
 ```bash
-suppress gen_id 1, sig_id 21120501, track by_dst, ip 172.30.1.30
-suppress gen_id 1, sig_id 21120501, track by_src, ip 172.30.1.30
+suppress gen_id 0, sig_id 0, track by_dst, ip 172.30.1.30
+suppress gen_id 0, sig_id 0, track by_src, ip 172.30.1.30
 ```
 
 ![vmrc_q6u00aXUqD](https://user-images.githubusercontent.com/79683414/144736856-252ed472-2669-429b-9358-8d2e90fbe0f0.png)
